@@ -1,6 +1,6 @@
 # 42cursus02-So_long
 ## Description:
-This goal of this project was to create a small 2D game, where you can collect "collectables" and exit the world. We used the minilibx grafics library.
+This goal of this project was to create a small 2D game, where you can collect "collectables" and exit the world. We used the MiniLibX graphics library.
 
 ## Usage:
 **MacOs Linux only**
