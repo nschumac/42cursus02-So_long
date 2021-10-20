@@ -1,4 +1,4 @@
-#include "so_long.h"
+#include "../includes/so_long.h"
 
 /*
 ** img = 0 if zou only wan tto destroy strings

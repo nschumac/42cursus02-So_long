@@ -8,9 +8,9 @@
 # include <fcntl.h>
 # include <string.h>
 # include <stdio.h>
-# include "mlx/mlx.h"
-# include "libft/libft.h"
-# include "get_next_line/get_next_line_bonus.h"
+# include "../mlx/mlx.h"
+# include "../42cursus00-Libft/libft.h"
+# include "../42cursus01-Get_next_line/get_next_line_bonus.h"
 
 # define STEAM_RESOURCE "./resources/steam.xpm"
 # define COIN_RESOURCE "./resources/coin.xpm"

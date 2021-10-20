@@ -1,4 +1,5 @@
-#include "so_long.h"
+#include "../includes/so_long.h"
+
 
 static void	ft_putpixelimg(t_img *data, int x, int y, int color)
 {

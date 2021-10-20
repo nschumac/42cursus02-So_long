@@ -1,4 +1,4 @@
-#include "so_long.h"
+#include "../includes/so_long.h"
 
 static char	ft_validppath(char *path)
 {
@@ -97,7 +97,7 @@ char	ft_readmap(t_game *game, char *mappath)
 	fd = open(mappath, O_RDONLY);
 	if (fd < 0)
 		return (0);
-	while (ft_get_next_line(fd, &buf))
+	while (get_next_line(fd, &buf))
 	{
 		if (!ft_darrayappend(&game->map, buf))
 			return (0);

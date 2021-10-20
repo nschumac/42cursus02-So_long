@@ -1,0 +1,6 @@
+[submodule "42cursus00-Libft"]
+	path = 42cursus00-Libft
+	url = https://github.com/nschumac/42cursus00-Libft.git
+[submodule "42cursus01-Get_next_line"]
+	path = 42cursus01-Get_next_line
+	url = https://github.com/nschumac/42cursus01-Get_next_line.git

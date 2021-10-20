@@ -1,4 +1,4 @@
-#include "so_long.h"
+#include "../includes/so_long.h"
 
 static char	ft_loadimages(t_game *game)
 {

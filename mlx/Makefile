@@ -11,17 +11,25 @@ CFLAGS+=-O2
 # add to match string put with X11 in size and position
 CFLAGS+= -DSTRINGPUTX11
 
+%.o : %.c
+	@cc -O2 -w -DSTRINGPUTX11   -c -o $@ $<
+
+%.o : %.m
+	@cc -O2 -w -DSTRINGPUTX11   -c -o $@ $<
+
+
 all: $(NOM)
 
 $(NOM):	$(OBJ)
-	ar -r $(NOM) $(OBJ)
-	ranlib $(NOM)
+	@ar -rc $(NOM) $(OBJ)
+	@ranlib $(NOM)
+	@echo mlx Compiled!
 
 clean:
-	rm -f $(OBJ) *~
+	@rm -f $(NOM) $(OBJ) *~
+	@rm -f mlx_app
 
-fclean:
-	rm -f $(NOM)
-	rm -f mlx_app
+fclean: clean
 
 re: clean all
+
