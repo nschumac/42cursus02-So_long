@@ -10,7 +10,7 @@ This goal of this project was to create a small 2D game, where you can collect "
 ## Subject:
 <object data="https://github.com/nschumac/42cursus02-So_long/blob/main/subject/so_long-en.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="https://github.com/nschumac/42cursus02-So_long/blob/main/subject/so_long-en.pdf">
-        <p><a href="https://github.com/nschumac/42cursus02-So_long/blob/main/subject/so_long-en.pdf">ft_printf subject</a></p>
+        <p><a href="https://github.com/nschumac/42cursus02-So_long/blob/main/subject/so_long-en.pdf">so_long subject</a></p>
     </embed>
 </object>
 
